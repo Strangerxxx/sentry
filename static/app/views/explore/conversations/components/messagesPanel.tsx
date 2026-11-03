@@ -30,6 +30,11 @@ import {
   NOT_REPORTED,
 } from 'sentry/views/explore/conversations/utils/conversationMessages';
 import {LLMCosts} from 'sentry/views/insights/pages/agents/components/llmCosts';
+import {
+  getScrubbedPlaceholders,
+  ScrubbedPlaceholdersProvider,
+  ScrubbedText,
+} from 'sentry/views/insights/pages/agents/components/scrubbedText';
 import {EMPTY_TEXT_CONTENT} from 'sentry/views/insights/pages/agents/utils/aiMessageNormalizer';
 import {
   getNumberAttr,
@@ -60,7 +65,16 @@ interface MessagesPanelProps {
 /**
  * Seer Explorer-styled conversation transcript.
  */
-export function MessagesPanel({
+export function MessagesPanel(props: MessagesPanelProps) {
+  const placeholders = useMemo(() => getScrubbedPlaceholders(props.nodes), [props.nodes]);
+  return (
+    <ScrubbedPlaceholdersProvider value={placeholders}>
+      <MessagesPanelContent {...props} />
+    </ScrubbedPlaceholdersProvider>
+  );
+}
+
+function MessagesPanelContent({
   nodes,
   selectedNodeId,
   onSelectNode,
@@ -579,7 +593,7 @@ function ReasoningSection({
       meta={meta}
       title={isOpen => (
         <Text size="sm" variant="muted" ellipsis monospace>
-          {t('Thinking...')} {isOpen ? null : reasoning}
+          {t('Thinking...')} {isOpen ? null : <ScrubbedText>{reasoning}</ScrubbedText>}
         </Text>
       )}
       onToggle={open =>

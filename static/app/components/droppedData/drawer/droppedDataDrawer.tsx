@@ -136,7 +136,7 @@ export function DroppedDataDrawer({
               </Container>
             ) : (
               <Fragment>
-                <Container background="primary" padding="xl 3xl lg">
+                <Container backgroundColor="primary" padding="xl 3xl lg">
                   <DroppedDataChart
                     droppedEvents={scopedDroppedEvents}
                     colors={outcomeColors}
@@ -158,7 +158,7 @@ export function DroppedDataDrawer({
                     }}
                   />
                 </Container>
-                <Stack flex="1" gap="2xl" background="secondary" padding="2xl xl">
+                <Stack flex="1" gap="2xl" backgroundColor="secondary" padding="2xl xl">
                   {selectedUnintentional.length > 0 && (
                     <Stack gap="xl">
                       <Container padding="0 xl">
@@ -175,7 +175,7 @@ export function DroppedDataDrawer({
                   {selectedIntentional.length > 0 && (
                     <Stack gap="xl">
                       <Stack gap="2xl">
-                        <Separator orientation="horizontal" border="primary" />
+                        <Separator orientation="horizontal" borderColor="primary" />
                         <Container padding="0 xl">
                           <Heading as="h3" size="xl">
                             {t('Expected Drops')}

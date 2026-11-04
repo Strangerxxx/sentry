@@ -703,7 +703,7 @@ function QuickSelectLabel({
           right="0"
           pointerEvents="none"
         >
-          <Separator orientation="horizontal" border="muted" />
+          <Separator orientation="horizontal" borderColor="muted" />
         </Container>
       ) : null}
     </Flex>

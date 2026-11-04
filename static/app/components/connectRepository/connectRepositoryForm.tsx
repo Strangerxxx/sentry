@@ -29,7 +29,12 @@ import {useOrganization} from 'sentry/utils/useOrganization';
 
 function PathsPlaceholder() {
   return (
-    <Container border="muted" radius="md" padding="2xl" style={{borderStyle: 'dashed'}}>
+    <Container
+      borderColor="muted"
+      radius="md"
+      padding="2xl"
+      style={{borderStyle: 'dashed'}}
+    >
       <Flex justify="center">
         <Text variant="muted">
           {t('Select a repository first to configure code paths')}

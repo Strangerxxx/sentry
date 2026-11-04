@@ -144,7 +144,7 @@ export default function Inbox() {
   return (
     <SentryDocumentTitle title={t('Inbox')} orgSlug={organization.slug}>
       <TopBar.Slot name="breadcrumbs" title={{type: 'page-title', label: t('Inbox')}} />
-      <Stack flex={1} minHeight={0} background="primary" overflow="hidden">
+      <Stack flex={1} minHeight={0} backgroundColor="primary" overflow="hidden">
         <InboxContent />
       </Stack>
     </SentryDocumentTitle>

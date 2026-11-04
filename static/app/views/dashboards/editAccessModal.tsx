@@ -263,7 +263,7 @@ function EditAccessModal({
               justify="between"
               gap="md"
               padding="md lg"
-              border="primary"
+              borderColor="primary"
               radius="md"
             >
               <Flex align="center" gap="md">
@@ -297,7 +297,7 @@ function EditAccessModal({
             </Flex>
 
             <Container
-              border="primary"
+              borderColor="primary"
               radius="md"
               overflowY="auto"
               maxHeight={`${TEAM_LIST_VISIBLE_ROWS * TEAM_ROW_HEIGHT}px`}

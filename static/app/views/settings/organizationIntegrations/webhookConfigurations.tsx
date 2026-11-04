@@ -134,9 +134,9 @@ function WebhookProjectRow({project}: {project: WebhookProject}) {
   return (
     <Container
       padding="xl"
-      border="primary"
+      borderColor="primary"
       radius="md"
-      background="primary"
+      backgroundColor="primary"
       data-test-id="webhook-project-row"
     >
       <Flex align="center">

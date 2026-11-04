@@ -214,7 +214,7 @@ export default Storybook.story('Investigations — Blocks', story => {
       details={[preRunInvestigation]}
     >
       <Stack gap="2xl">
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Not run
           </Heading>
@@ -224,7 +224,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             investigation={preRunInvestigation}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Available
           </Heading>
@@ -234,7 +234,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             investigation={preRunInvestigation}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Restricted
           </Heading>
@@ -244,7 +244,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             investigation={preRunInvestigation}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Completed
           </Heading>
@@ -304,7 +304,7 @@ export default Storybook.story('Investigations — Blocks', story => {
       }}
     >
       <Stack gap="2xl">
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Pending
           </Heading>
@@ -314,7 +314,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             investigation={activeInvestigation}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Running
           </Heading>
@@ -324,7 +324,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             investigation={activeInvestigation}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Stopping
           </Heading>
@@ -449,7 +449,7 @@ export default Storybook.story('Investigations — Blocks', story => {
       details={[commentButtonInvestigation]}
     >
       <Stack gap="2xl">
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             No comments, shown on hover
           </Heading>
@@ -460,7 +460,7 @@ export default Storybook.story('Investigations — Blocks', story => {
             onComment={() => {}}
           />
         </Stack>
-        <Stack gap="sm" padding="lg" border="primary" radius="md">
+        <Stack gap="sm" padding="lg" borderColor="primary" radius="md">
           <Heading as="h3" size="md">
             Has comments, always shown
           </Heading>

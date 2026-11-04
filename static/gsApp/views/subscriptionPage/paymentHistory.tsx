@@ -204,9 +204,9 @@ function ReceiptGrid({
   return (
     <Fragment>
       <Stack
-        border="primary"
+        borderColor="primary"
         radius="md"
-        background="primary"
+        backgroundColor="primary"
         data-test-id="payment-list"
       >
         <Grid

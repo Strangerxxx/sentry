@@ -405,7 +405,7 @@ export function BaseAskSeerComboBox<T extends QueryTokensProps>({
               paddingBottom="sm"
               paddingLeft="md"
               paddingRight="md"
-              background="secondary"
+              backgroundColor="secondary"
               onMouseDown={e => e.preventDefault()}
             >
               <Flex

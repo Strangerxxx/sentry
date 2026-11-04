@@ -896,7 +896,7 @@ function Transcript({
     <TraceSurface
       gap="md"
       padding="md"
-      backgroundColor="secondary"
+      background="secondary"
       radius="lg"
       data-test-id="investigation-transcript"
     >

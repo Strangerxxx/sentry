@@ -206,7 +206,7 @@ function ReceiptGrid({
       <Stack
         borderColor="primary"
         radius="md"
-        backgroundColor="primary"
+        background="primary"
         data-test-id="payment-list"
       >
         <Grid

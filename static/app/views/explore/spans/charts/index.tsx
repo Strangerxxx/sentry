@@ -440,7 +440,7 @@ function Chart({
       ref={chartWrapperRef}
       borderColor="primary"
       radius="md"
-      backgroundColor="primary"
+      background="primary"
     >
       <Widget
         Title={Title}

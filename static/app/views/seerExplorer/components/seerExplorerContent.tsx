@@ -115,7 +115,7 @@ function SidebarHeaderShell({
       gap="md"
       height={`${PRIMARY_HEADER_HEIGHT}px`}
       padding="0 lg"
-      backgroundColor="primary"
+      background="primary"
       borderBottom="primary"
       flexShrink={0}
     >
@@ -801,7 +801,7 @@ export function SeerExplorerContent({
         width="100%"
         height="100%"
         position="relative"
-        backgroundColor="primary"
+        background="primary"
         overflow="hidden"
         containerType="inline-size"
       >

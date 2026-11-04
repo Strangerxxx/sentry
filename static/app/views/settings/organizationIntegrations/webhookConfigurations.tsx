@@ -136,7 +136,7 @@ function WebhookProjectRow({project}: {project: WebhookProject}) {
       padding="xl"
       borderColor="primary"
       radius="md"
-      backgroundColor="primary"
+      background="primary"
       data-test-id="webhook-project-row"
     >
       <Flex align="center">

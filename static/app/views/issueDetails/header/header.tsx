@@ -76,7 +76,7 @@ export function GroupHeader({event, group, project}: GroupHeaderProps) {
     <Fragment>
       <Container
         as="header"
-        backgroundColor="primary"
+        background="primary"
         paddingTop="md"
         paddingBottom="md"
         css={cssTheme => css`
@@ -208,7 +208,7 @@ export function GroupHeader({event, group, project}: GroupHeaderProps) {
               paddingBottom="md"
               borderBottom="primary"
               position="relative"
-              backgroundColor={isComplete ? undefined : 'primary'}
+              background={isComplete ? undefined : 'primary'}
               role="banner"
             >
               <Container

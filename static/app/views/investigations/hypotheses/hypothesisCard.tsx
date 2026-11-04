@@ -91,7 +91,7 @@ export function HypothesisCard({
       gap="md"
       padding="lg"
       radius="md"
-      backgroundColor="primary"
+      background="primary"
       data-border={getHypothesisCardBorder(hypothesis.effectiveStatus)}
       data-primary={isPrimary}
       data-test-id="investigation-hypothesis"

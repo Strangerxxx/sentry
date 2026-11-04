@@ -647,7 +647,7 @@ function ImgSrcProbe({
 function CodeBlock({children}: {children: React.ReactNode}) {
   return (
     <Container
-      backgroundColor="secondary"
+      background="secondary"
       borderColor="primary"
       radius="md"
       padding="md"

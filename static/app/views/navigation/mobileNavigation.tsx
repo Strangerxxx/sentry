@@ -48,7 +48,7 @@ function MobileNavigationHeader(props: FlexProps<'header'>) {
       paddingRight="lg"
       width="100vw"
       borderBottom="primary"
-      backgroundColor="secondary"
+      background="secondary"
       justify="between"
       position="sticky"
       overscrollBehavior="none"

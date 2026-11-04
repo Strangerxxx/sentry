@@ -60,7 +60,7 @@ export function SharedSpendLimitPriceTable({
         gap={{zero: 'xs', md: 'lg'}}
         align="center"
         padding="md xl"
-        backgroundColor="secondary"
+        background="secondary"
       >
         <Text bold>{t('Product')}</Text>
         <Container display={{zero: 'none', md: 'block'}} justifySelf="end">

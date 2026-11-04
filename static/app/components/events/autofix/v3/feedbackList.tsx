@@ -787,7 +787,7 @@ function AuthorAvatar({
           align="center"
           justify="center"
           radius="full"
-          backgroundColor="primary"
+          background="primary"
           width={`${SOURCE_BADGE_SIZE}px`}
           height={`${SOURCE_BADGE_SIZE}px`}
         >

@@ -114,7 +114,7 @@ export function EventDetailsHeader({
         aria-description={t('Event filtering controls')}
         position="relative"
         gap="lg"
-        backgroundColor="secondary"
+        background="secondary"
         paddingTop="lg"
         style={{
           paddingInline: `var(--issue-details-inset, ${theme.space['2xl']})`,

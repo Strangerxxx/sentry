@@ -136,7 +136,7 @@ export function DroppedDataDrawer({
               </Container>
             ) : (
               <Fragment>
-                <Container backgroundColor="primary" padding="xl 3xl lg">
+                <Container background="primary" padding="xl 3xl lg">
                   <DroppedDataChart
                     droppedEvents={scopedDroppedEvents}
                     colors={outcomeColors}
@@ -158,7 +158,7 @@ export function DroppedDataDrawer({
                     }}
                   />
                 </Container>
-                <Stack flex="1" gap="2xl" backgroundColor="secondary" padding="2xl xl">
+                <Stack flex="1" gap="2xl" background="secondary" padding="2xl xl">
                   {selectedUnintentional.length > 0 && (
                     <Stack gap="xl">
                       <Container padding="0 xl">
